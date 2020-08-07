@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  width: 18%;
+  text-align: center;
+  border-bottom: 2px solid #000;
+  line-height: 0.01em;
+  margin: 10px 0 20px;
+}
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 320px) {
+  h2 {
+    width: 50%;
+  }
+}
