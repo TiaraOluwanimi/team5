@@ -1,0 +1,117 @@
+
+/*  Header Navbar */
+body{
+  margin: 0;
+}
+.nav1{
+   margin: 10px;
+}
+.nav1div1{
+    display: inline;
+    float: right;
+}
+.nav1butt1{
+    color: #212121;
+    border-color: #212121;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    padding: 7px 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    outline: none;
+    margin-left: 35px;
+}
+.nav1butt2{
+    color: #FFFFFF;
+    border-color: #60C0E8;
+    border: none;
+    background-color: #60C0E8;
+    padding: 8px 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    outline: none;
+    margin-left: 8px;
+}
+.nav1butt1:hover{
+    background-color: #f0f0f0;
+      cursor: pointer;
+}
+.nav1butt2:hover{
+    background-color: #60adce;
+    cursor: pointer;
+}
+.searchicon:hover{
+    cursor: pointer;
+}
+.nav1div2{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.searchbar{
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+.display{
+    display: none;
+}
+
+
+
+/*  Footer  */
+.footer1{
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+.footer1div1{
+    text-align: center;
+}
+.footer1hh1{
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #60C0E8;
+    font-weight: 600;
+}
+.footer1div2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.footer1hh2{
+    font-family: 'Montserrat', sans-serif;
+    color: #60C0E8;
+    font-weight: 600;
+}
+.footer1hh3{
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-weight: normal;
+}
+.footer1div6{
+    text-align: center;
+    margin-top: -50px;
+}
+.redd{
+    margin-bottom: 5px;
+}
+.footer1hh4{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Footer Media Queries */
+@media only screen and (max-width: 399px) {
+    .footer1div2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer1div6{
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+  
