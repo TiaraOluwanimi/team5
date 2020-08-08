@@ -101,3 +101,19 @@
     width: 70%;
   }
 }
+/* Media query for join us cards */
+@media screen and (max-width: 590px) {
+  .joindiv{
+    width: 90% !important;
+
+  }
+  .row{
+    justify-content: center;
+  }
+  .joincont{
+    width: 90% !important;
+  }
+  .jointext{
+    width: 75% !important;
+  }
+}
